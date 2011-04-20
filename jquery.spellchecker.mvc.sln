@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jquery.spellchecker.mvc", "jquery.spellchecker.mvc\jquery.spellchecker.mvc.csproj", "{645F8275-15C1-4613-83D1-72C84ACA2369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jquery.spellchecker", "jquery.spellchecker\jquery.spellchecker.csproj", "{5C790F5D-25FB-48E3-8564-D8C618F3F89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{645F8275-15C1-4613-83D1-72C84ACA2369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645F8275-15C1-4613-83D1-72C84ACA2369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645F8275-15C1-4613-83D1-72C84ACA2369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645F8275-15C1-4613-83D1-72C84ACA2369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C790F5D-25FB-48E3-8564-D8C618F3F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C790F5D-25FB-48E3-8564-D8C618F3F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C790F5D-25FB-48E3-8564-D8C618F3F89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C790F5D-25FB-48E3-8564-D8C618F3F89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
