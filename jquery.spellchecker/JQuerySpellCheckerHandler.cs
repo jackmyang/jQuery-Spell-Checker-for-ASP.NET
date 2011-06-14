@@ -321,8 +321,15 @@ namespace jquery.spellchecker
 
             WebClient webClient = new WebClient();
             webClient.Headers.Add("Content-Type", "text/xml");
-            byte[] response = webClient.UploadData(requestUrl, "POST", buffer);
-            return Encoding.UTF8.GetString(response);
+            try
+            {
+                byte[] response = webClient.UploadData(requestUrl, "POST", buffer);
+                return Encoding.UTF8.GetString(response);
+            }
+            catch (ArgumentException)
+            {
+                return string.Empty;
+            }
         }
 
         /// <summary>
