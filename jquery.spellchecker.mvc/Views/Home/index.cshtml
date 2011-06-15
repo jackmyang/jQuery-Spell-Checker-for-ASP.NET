@@ -64,7 +64,7 @@
 
 	        $("#text-content")
 			.spellchecker({
-			    url: "/JQuerySpellCheckerHandler.ashx",    // only value different from original demo code using PHP, calls the ASP.NET HttpHandler here
+			    url: "@Url.Content("~/JQuerySpellCheckerHandler.ashx")",    // only value different from original demo code using PHP, calls the ASP.NET HttpHandler here
 			    lang: "en",
 			    engine: "google",
 			    suggestBoxPosition: "above"
